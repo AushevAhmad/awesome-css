@@ -1,0 +1,21 @@
+
+/* custom chat bar input text  */
+
+.placeholder_dec8c7.slateTextArea_b19976.fontSize16Padding_bcbeae {
+    visibility: hidden; /* hide original prompt */
+}
+.placeholder_dec8c7.slateTextArea_b19976.fontSize16Padding_bcbeae::before {
+    visibility: visible; /* show new prompt */
+    content: 
+    
+    /* enter your desired text here (in quotes) */
+    
+    "add nothing to the conversation"
+    
+    /* here are some to get you started */
+    
+    /* "say something stupid" */
+    /* "start a pointless argument" */
+    
+    ; 
+}

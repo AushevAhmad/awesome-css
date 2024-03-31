@@ -1,0 +1,7 @@
+/* UNDER CONSTRUCTION */
+
+
+/* remove nitro and shop buttons from home */
+.channel__0aef5.container__3792d:nth-child(3), .channel__0aef5.container__3792d:nth-child(4) {
+    display: none;
+}

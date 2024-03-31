@@ -1,0 +1,23 @@
+/* replaces the silly default emoji picker with any emoji of your choice! */
+
+[aria-label="Select emoji"]::before {
+    content: "";
+    background-image: url(
+
+        https://cdn.discordapp.com/emojis/1196313509525471355.webp?size=96&quality=lossless
+        
+        ); /* paste your emoji link here ^ */
+        
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    display: block;
+    visibility: visible;
+}
+[aria-label="Select emoji"] {
+    visibility: hidden; /* hide original emjoi */
+}
