@@ -1,7 +1,35 @@
-/* UNDER CONSTRUCTION */
-
-
-/* remove nitro and shop buttons from home */
-.channel__0aef5.container__3792d:nth-child(3), .channel__0aef5.container__3792d:nth-child(4) {
+/* Adblock CSS */
+/* Send a gift button (in profile & chat bar) */
+button[aria-label="Send a gift"] {
+    display: none !important;
+}
+.giftButtonContainer__68103 {
+    display: none !important;
+  }
+/* Nitro tab */
+[data-list-item-id*="___nitro"] {
     display: none;
+}
+/* Store tab */
+[data-list-item-id*="___shop"] {
+    display: none;
+}
+/* Hide "Get Nitro" button in emoji info */
+.ctaButton__2bd82.grow__4c8a4.fullWidth_fdb23d.sizeSmall_da7d10.colorGreen__75c93.lookFilled__950dd.button__581d0.shinyButton_d5e126 {
+    display: none;
+}
+/* Disable the super reaction ad pop up */
+.reaction_fef95b[style*="background"] {
+  pointer-events: none;
+}
+/* Hide "Get nitro" ad for too long message */
+.upsell__54a69.root__03160 {
+    display: none;
+}
+div.layerContainer_a2fcaa:nth-of-type(4) {
+    display: none;
+}
+/* Server boost button */
+#guild-header-popout > div > div:nth-child(1), #guild-header-popout > div > div:nth-child(2) {
+    display: none
 }
