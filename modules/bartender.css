@@ -1,0 +1,20 @@
+/* simple drawer for discord's toolbar. just hover to open. */
+
+/* note: this does not work properly on Vesktop */
+
+/* animations coming soon! */
+
+[class="toolbar__62fb5"]::before {
+    content: "∙∙∙";
+    font-size: 110%;
+    margin: 0 8px;
+    color: var(--text-muted);
+  }  /* add a menu icon */
+  
+  [class="toolbar__62fb5"] {
+    width: 45px;  /* shrink to show all but menu icon */
+  }
+  [class="toolbar__62fb5"]:hover {
+    width: unset;
+  } /* expand to full on hover */
+
