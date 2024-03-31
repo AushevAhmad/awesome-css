@@ -26,9 +26,6 @@ button[aria-label="Send a gift"] {
 .upsell__54a69.root__03160 {
     display: none;
 }
-div.layerContainer_a2fcaa:nth-of-type(4) {
-    display: none;
-}
 /* Server boost button */
 #guild-header-popout > div > div:nth-child(1), #guild-header-popout > div > div:nth-child(2) {
     display: none
