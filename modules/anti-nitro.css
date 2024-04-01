@@ -1,0 +1,77 @@
+/* Anti-Nitro */
+/* ok, you're just jealous that you don't have nitro */
+/* Remove Profile effect */
+[class^="profileEffects"]
+{
+  display: none;
+}
+/* Billing settings */
+.themed_b957e8.item__48dda.premiumTab_ad0913 {
+    display: none;
+}
+div.themed_b957e8.item__48dda:nth-of-type(14) {
+    display: none;
+}
+div.themed_b957e8.item__48dda:nth-of-type(15) {
+    display: none;
+}
+div.themed_b957e8.item__48dda:nth-of-type(16) {
+    display: none;
+}
+div.themed_b957e8.item__48dda:nth-of-type(17) {
+    display: none;
+}
+div.header__71a82:nth-of-type(12) {
+  display: none;
+}
+div.separator_d14fb1:nth-of-type(11) {
+  display: none;
+}
+/* Nitro tab */
+[data-list-item-id*="___nitro"] {
+    display: none;
+}
+
+/* Store tab */
+[data-list-item-id*="___shop"] {
+    display: none;
+}
+/* Store ad in profile settings */
+.container__686c4 {
+    display: none;
+}
+/* "Try out nitro" ad in profile settings */
+.tryItOutSection_d658ca.featureBorder__404e3.premiumFeatureBorder__6ac04 {
+    display: none;
+}
+/* App theme */
+#appearance-tab > div > div.children_b15c64 > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div {
+    display: none
+}
+/* Icon Theme */
+#appearance-tab > div > div.children_b15c64 > div:nth-child(2) > div.selectionGroup__36139 {
+    display: none
+}
+/* Server boost button */
+#guild-header-popout > div > div:nth-child(1), #guild-header-popout > div > div:nth-child(2) {
+    display: none
+}
+/* Disable the super reaction ad pop up */
+.reaction_fef95b[style*="background"] {
+    pointer-events: none;
+}
+/* Hide "Get nitro" ad for too long message */
+.upsell__54a69.root__03160 {
+    display: none;
+}
+/* Send a gift button (in profile & chat bar) */
+button[aria-label="Send a gift"] {
+    display: none !important;
+}
+.giftButtonContainer__68103 {
+    display: none !important;
+}
+/* Store popup ads */
+[id^=popout]:has([class^=buttonContainerVertical]) {
+    display:none;
+}
