@@ -16,8 +16,8 @@ Blocks Discord Nitro/Shop/Server Boost ads.
 ```
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/adblock.css");
 ```
-### Anti-nitro
-Blocks ALL Discord Nitro/Shop/Server boost ads and hides nitro settings.
+### Adblock+
+Better version of Adblock module that blocks even more ads and removes billing settings.
 ```
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/anti-nitro.css");
 ```
