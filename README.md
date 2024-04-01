@@ -22,9 +22,14 @@ Better version of Adblock module that removes billing settings and profile effec
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/adblockplus.css");
 ```
 ### Declutter
-Removes useless buttons and giving Discord a cleaner look.(Recommended to use with Adblock or Anti-nitro module because Declutter module doesn't remove ads)
+Removes useless buttons and giving Discord a cleaner look.(Recommended to use Declutter+ module because Declutter module doesn't remove ads)
 ```
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/declutter.css");
+```
+### Declutter+
+Better version of Declutter module that also removes ads by default.(Recommended)
+```
+@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/declutterplus.css");
 ```
 ---
 
