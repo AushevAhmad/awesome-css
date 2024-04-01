@@ -14,6 +14,10 @@ button[aria-label="Send a gift"] {
 [data-list-item-id*="___shop"] {
     display: none;
 }
+/* Store popup ads */
+[id^=popout]:has([class^=buttonContainerVertical]) {
+    display:none;
+}
 /* Hide "Get Nitro" button in emoji info */
 .ctaButton__2bd82.grow__4c8a4.fullWidth_fdb23d.sizeSmall_da7d10.colorGreen__75c93.lookFilled__950dd.button__581d0.shinyButton_d5e126 {
     display: none;
