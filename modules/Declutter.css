@@ -1,0 +1,81 @@
+/* Declutter */
+/* Declutter Discord with this CSS(Recommended to use with Adblock or Anti-nitro module) */
+
+/* Removes "Support" question mark button */
+[aria-label="Help"] {
+    display: none !important;
+}
+/* Hide GIF picker button */
+button[aria-label="Open GIF picker"] {
+    display: none;
+}
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+/* Hide status/username viewer near mic button */
+.panelSubtextContainer_fd5930 {
+    display: none;
+}
+/* No "New member" badge */
+.newMemberBadge__17bc0 {
+    display: none;
+}
+/* Hide 'Explore Discoverable Servers' in server page */
+div[class*="listItem"]:has(div[aria-label="Explore Discoverable Servers"]) {
+    display: none;
+}
+/* Remove loading quote */
+.text__35f5c {
+    display: none;
+}
+/* Hide thread suggestion in reply */
+  .threadSuggestionBar__717a3 {
+    display: none;
+}
+/* No blocked secton in friends list */
+  div.themed_b957e8.item__48dda.item_e4ca95:nth-of-type(4) {
+    display: none;
+}
+/* No "Actie now" tab */
+  .nowPlayingColumn_b025fe {
+    display: none;
+}
+/* Hide "x in vc" scroll indicator */
+[class^=bar__]:has([class^=voiceChannelsIcon__]) {
+    display: none;
+}
+/* remove video call button */
+[aria-label="Start Video Call"]
+{
+    display: none !important;
+}
+/* Remove Show User Profile button */
+[aria-label="Show User Profile"]
+{
+   display: none !important;
+}
+/* Remove Add Friends to DM button */
+[aria-label="Add Friends to DM"]
+{
+   display: none !important;
+}
+/* Remove Threads button in topbar */
+[aria-label="Threads"]
+{
+   display: none !important;
+}
+/* Remove Notification Settings button in topbar */
+[aria-label="Notification Settings"]
+{
+   display: none !important;
+}
+/* Remove dividing line in profile */
+.divider__126d2.divider_d6f39c {
+    display: none;
+}
+/* Remove Summaries button in topbar */
+[aria-label="Summaries"]
+{
+   display: none !important;
+}
