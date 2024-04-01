@@ -34,22 +34,22 @@ Better version of Declutter module that also removes ads by default.(Recommended
 
 # Modules by others
 ### Connection glow on hover 💡
-This makes the connection buttons glow when hovering on them on a discord profile.(Recommended)
+This makes the connection buttons glow when hovering on them on a discord profile.
 ```css
 @import url('https://raw.githubusercontent.com/Vortex-Chaos/Discord-Connections-Glow/main/Code.css');
 ```
 ### Better spotify player 🎵
-This makes the spotify player look like the one from Samsung OneUI(Recommended)
+This makes the spotify player look like the one from Samsung OneUI.
 ```css
 @import url('https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css');
 ```
 ### Acrylic popup 🖼️
-This makes the popups have a background blur effect, it is from [here](https://s-k-y-l-i.github.io/discord-themes/Theme%20code/transparent-popups.css), but in our repo for config purposes(Recommended)
+This makes the popups have a background blur effect, it is from [here](https://s-k-y-l-i.github.io/discord-themes/Theme%20code/transparent-popups.css), but in our repo for config purposes
 ```css
 @import url('https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/acrylicpopup.css');
 ```
-### Acrylic popup 🔲
-Gives you a button for Alt on any image that has it(Recommended)
+### Alt text improvements 🔲
+Gives you a button for Alt on any image that has it
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css");
 ```
