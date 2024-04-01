@@ -53,6 +53,11 @@ Gives you a button for Alt on any image that has it
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css");
 ```
+### QuickSwitch V2 🔎
+A redesign to Discord's quickswitch popup, making it look more like spotlight and simillar search bars
+``` css
+@import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
+```
 ---
 
 ## ❓ Installation Guide
@@ -75,3 +80,6 @@ You can report your issues / idea, in the issues tab
 ---
 ## Credits
 [Ahmad](https://github.com/AushevAhmad), [FormalSnake](https://github.com/formalsnake), [Geb](https://github.com/underscoregeb).
+--
+## Credits to third-party devs
+[Vortex-Chaos](https://github.com/Vortex-Chaos),[Panniku](https://github.com/Panniku),[Skyli](https://github.com/s-k-y-l-i),[Saltssaumure](https://github.com/Saltssaumure),[Dablulite](https://github.com/dablulite)
