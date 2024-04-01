@@ -17,7 +17,7 @@ Blocks Discord Nitro/Shop/Server Boost ads.
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/adblock.css");
 ```
 ### Adblock+
-Better version of Adblock module that blocks even more ads and removes billing settings.
+Better version of Adblock module that removes billing settings and profile effect.
 ```
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/adblockplus.css");
 ```
