@@ -19,7 +19,7 @@ Blocks Discord Nitro/Shop/Server Boost ads.
 ### Adblock+
 Better version of Adblock module that blocks even more ads and removes billing settings.
 ```
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/anti-nitro.css");
+@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/adblockplus.css");
 ```
 ### Declutter
 Removes useless buttons and giving Discord a cleaner look.(Recommended to use with Adblock or Anti-nitro module because Declutter module doesn't remove ads)
