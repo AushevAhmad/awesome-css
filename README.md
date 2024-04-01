@@ -71,3 +71,7 @@ In the Vencord section chose "Themes", then open the QuickCSS File
 ## Issues / Idea
 
 You can report your issues / idea, in the issues tab
+
+---
+## Credits
+[Ahmad](https://github.com/AushevAhmad), [FormalSnake](https://github.com/formalsnake), [Geb](https://github.com/underscoregeb).
