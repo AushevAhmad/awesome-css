@@ -5,15 +5,15 @@ A collection of awesome CSS snippets for Discord. See [Installing Modules](#inst
 
 ## Modules
 
+
 ### 🍸 Bartender 
-![image](assets/bartender.gif)
 Hide Discord's toolbar icons until you need them. 
 ```css
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/bartender.css");
 ```
+![image](assets/bartender.gif)
 
 ### 🙂 JaceMoji 
-![image](assets/jacemoji.png)
 Replace the emoji icon in text inputs with one of your choice. 
 ```css
 :root {
@@ -21,30 +21,31 @@ Replace the emoji icon in text inputs with one of your choice.
 }
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/custom-emoji-bar.css");
 ```
+![image](assets/jacemoji.png)
 
 ### ⌨️ Custom Prompt 
-![image](assets/chatprompt.png)
 Replace the text prompt in the chat bar. 
 ```css
 :root {
-    --prompt-text: "add nothng to the conversation";
+    --prompt-text: "be silly :3";
 }
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/custom-bar-prompt.css");
 ```
+![image](assets/chatprompt.png)
 
 ### 📶 MemberCount Tweak 
-![image](assets/membercount.png)
 Minor adjustments to the membercount view. *This module has no effect unless the [Vencord MemberCount](https://vencord.dev/plugins/MemberCount) plugin is installed.*
 ```css
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/custom-bar-.css");
 ```
+![image](assets/membercount.png)
 
 ### 🛑 Adblock
-![image](assets/adblock.png)
 Block Discord Nitro/Shop/Server Boost ads.
 ```css
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/adblock.css");
 ```
+![image](assets/adblock.png)
 
 ### 🛡️ Adblock+ 
 Better version of Adblock module that removes billing settings and profile effect.
