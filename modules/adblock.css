@@ -5,7 +5,7 @@ button[aria-label="Send a gift"] {
 }
 .giftButtonContainer__68103 {
     display: none !important;
-  }
+}
 /* Nitro tab */
 [data-list-item-id*="___nitro"] {
     display: none;
