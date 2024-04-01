@@ -80,6 +80,5 @@ You can report your issues / idea, in the issues tab
 ---
 ## Credits
 [Ahmad](https://github.com/AushevAhmad), [FormalSnake](https://github.com/formalsnake), [Geb](https://github.com/underscoregeb).
---
 ## Credits to third-party devs
 [Vortex-Chaos](https://github.com/Vortex-Chaos),[Panniku](https://github.com/Panniku),[Skyli](https://github.com/s-k-y-l-i),[Saltssaumure](https://github.com/Saltssaumure),[Dablulite](https://github.com/dablulite)
