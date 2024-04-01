@@ -1,5 +1,5 @@
 # Awesome CSS
-An awesome collection of CSS for Discord
+Collection of awesome CSS for Discord
 
 
 ---
