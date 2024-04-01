@@ -43,8 +43,8 @@ This makes the spotify player look like the one from Samsung OneUI.
 ```css
 @import url('https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css');
 ```
-### Acrylic popup 🖼️
-This makes the popups have a background blur effect, it is from [here](https://s-k-y-l-i.github.io/discord-themes/Theme%20code/transparent-popups.css), but in our repo for config purposes
+### Acrylic pop-outs 🖼️
+This gives pop-outs such as user profiles have a background blur effect. Credit goes to [Skyli](https://s-k-y-l-i.github.io/discord-themes/Theme%20code/transparent-popups.css), this is included in our repo for ease of access.
 ```css
 @import url('https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/acrylicpopup.css');
 ```
