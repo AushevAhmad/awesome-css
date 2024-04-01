@@ -58,6 +58,16 @@ A redesign to Discord's quickswitch popup, making it look more like spotlight an
 ``` css
 @import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
 ```
+### Account Details Grid 💠
+A refresh to the now archived "account details columns" snippet
+``` css
+@import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
+```
+### Tabs V2 Home icon 💬
+Replace basic Discord logo to fresh chat bubbles icon
+``` css
+@import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
+```
 ---
 
 ## ❓ Installation Guide
