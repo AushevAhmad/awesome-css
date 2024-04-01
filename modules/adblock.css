@@ -30,3 +30,19 @@ button[aria-label="Send a gift"] {
 #guild-header-popout > div > div:nth-child(1), #guild-header-popout > div > div:nth-child(2) {
     display: none
 }
+/* Store ad in profile settings */
+.container__686c4 {
+    display: none;
+}
+/* "Try out nitro" ad in profile settings */
+.tryItOutSection_d658ca.featureBorder__404e3.premiumFeatureBorder__6ac04 {
+    display: none;
+}
+/* App theme */
+#appearance-tab > div > div.children_b15c64 > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div {
+    display: none
+}
+/* Icon Theme */
+#appearance-tab > div > div.children_b15c64 > div:nth-child(2) > div.selectionGroup__36139 {
+    display: none
+}
