@@ -1,0 +1,11 @@
+@import url('https://s-k-y-l-i.github.io/discord-themes/Theme%20code/transparent-popups.css');
+
+/* Config */
+:root{
+    --blur-popup: 40px; /*Popup blur size*/
+    --opacity-popup: 0.6; /*Popup background opacity*/  
+    --radius-popup: 40px; /*Popup border radius*/
+    --radius-context: 20px; /*Context menu popups radius*/
+    /*--pop-up-color: black; /*uncomment for custom Popup color*/ 
+    /*--context-menu-border: 1px solid red; /*uncomment for custom border*/
+}
