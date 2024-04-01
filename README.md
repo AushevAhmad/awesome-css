@@ -111,15 +111,13 @@ Replace the Discord Home icon with a modern Chats icon.
 
 ---
 
-## Installing Modules
-
-![image](https://github.com/AushevAhmad/awesome-css/assets/113457231/894d9a44-2d81-438e-ae90-d96252e2c6e0)
+## Installing Module
 
 1. Open the CSS file for your modded discord client. We reccomend using [Vencord](https://vencord.dev) or [BetterDiscord](https://betterdiscord.app/).
 
-    - **Vencord:** In the Vencord settings tab, select 'Open QuickCSS File'
+    - **Vencord:** In the Vencord settings tab, make sure *Enable Custom CSS* is turned on, then select 'Open QuickCSS File'
 
-    - **BetterDiscord:** Open the CustomCSS tab in settings
+    - **BetterDiscord:** Open the CustomCSS tab in settings.
 
 2. Paste the CSS modules you want into the CSS file. 
 
@@ -127,6 +125,9 @@ Replace the Discord Home icon with a modern Chats icon.
 
 > The modules will be loaded directly from this repo, meaning they will be able to recieve updates. If you do not want to recieve updates, see [Customizing Modules](#customizing-modules)
 
+![image](assets/settings.png)
+
+![image](assets/quickcss.png)
 
 ## Customizing Modules
 
