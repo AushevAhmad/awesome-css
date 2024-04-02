@@ -13,7 +13,7 @@ Hide Discord's toolbar icons until you need them.
 ```
 ![image](assets/bartender.gif)
 
-### 🙂 JaceMoji 
+### 🙂 Custom Emoji 
 Replace the emoji icon in text inputs with one of your choice. 
 ```css
 :root {
