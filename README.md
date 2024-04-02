@@ -36,7 +36,7 @@ Replace the text prompt in the chat bar.
 ### 📶 MemberCount Tweak 
 Minor adjustments to the membercount view. *This module has no effect unless the [Vencord MemberCount](https://vencord.dev/plugins/MemberCount) plugin is installed.*
 ```css
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/custom-bar-.css");
+@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/vc-membercount.css");
 ```
 ![image](assets/membercount.png)
 
