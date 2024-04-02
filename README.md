@@ -9,14 +9,14 @@ A collection of awesome CSS snippets for Discord. See [Installing Modules](#inst
 ### 🍸 Bartender 
 Hide Discord's toolbar icons until you need them. 
 ```css
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/bartender.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/bartender.css");
 ```
 ![image](assets/bartender.gif)
 
 ### 🙂 Custom Emoji 
 Replace the emoji icon in text inputs with one of your choice. 
 ```css
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/custom-emoji-bar.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/custom-emoji-bar.css");
 :root {
     --image-link: url("https://cdn.discordapp.com/emojis/1196313509525471355.webp");
 }
@@ -26,7 +26,7 @@ Replace the emoji icon in text inputs with one of your choice.
 ### ⌨️ Custom Prompt 
 Replace the text prompt in the chat bar. 
 ```css
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/custom-bar-prompt.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/custom-bar-prompt.css");
 :root {
     --prompt-text: "be silly :3";
 }
@@ -36,33 +36,33 @@ Replace the text prompt in the chat bar.
 ### 📶 MemberCount Tweak 
 Minor adjustments to the membercount view. *This module has no effect unless the [Vencord MemberCount](https://vencord.dev/plugins/MemberCount) plugin is installed.*
 ```css
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/vc-membercount.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/vc-membercount.css");
 ```
 ![image](assets/membercount.png)
 
 ### 🛑 Adblock
 Block Discord Nitro/Shop/Server Boost ads.
 ```css
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/adblock.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/adblock.css");
 ```
 ![image](assets/adblock.png)
 
 ### 🛡️ Adblock+ 
 Better version of Adblock module that removes billing settings and profile effect.
 ```css
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/adblockplus.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/adblockplus.css");
 ```
 
 ### 🧹 Declutter 
 Remove useless buttons and give Discord a cleaner look.
 ```css
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/declutter.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/declutter.css");
 ```
 
 ### ✨ Declutter+ 
 Better version of Declutter module that also removes ads by default.(Recommended)
 ```css
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/declutterplus.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/declutterplus.css");
 ```
 
 
@@ -70,19 +70,19 @@ Better version of Declutter module that also removes ads by default.(Recommended
 ### 💡 Connection glow on hover by [Vortex-Chaos](https://github.com/Vortex-Chaos) 
 Make the connection buttons glow when hovering in discord profiles.
 ```css
-@import url('https://raw.githubusercontent.com/Vortex-Chaos/Discord-Connections-Glow/main/Code.css');
+@import url("https://raw.githubusercontent.com/Vortex-Chaos/Discord-Connections-Glow/main/Code.css");
 ```
 
 ### 🎵 Better spotify player by [Panniku](https://github.com/Panniku)
 Make the spotify player look like it's from Samsung OneUI.
 ```css
-@import url('https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css');
+@import url("https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css");
 ```
 
 ### 🖼️ Acrylic pop-outs by [Skyli](https://github.com/s-k-y-l-i)
 Give pop-outs such as user profiles a background blur effect.
 ```css
-@import url('https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/acrylicpopup.css');
+@import url("https://aushevahmad.github.io/awesome-css/modules/acrylicpopup.css");
 ```
 
 ### 🔲 Alt text improvements by [Saltssaumure](https://github.com/Saltssaumure)
