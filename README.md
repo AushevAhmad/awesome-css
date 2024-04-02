@@ -16,20 +16,20 @@ Hide Discord's toolbar icons until you need them.
 ### 🙂 Custom Emoji 
 Replace the emoji icon in text inputs with one of your choice. 
 ```css
+@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/custom-emoji-bar.css");
 :root {
     --image-link: url("https://cdn.discordapp.com/emojis/1196313509525471355.webp");
 }
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/custom-emoji-bar.css");
 ```
 ![image](assets/jacemoji.png)
 
 ### ⌨️ Custom Prompt 
 Replace the text prompt in the chat bar. 
 ```css
+@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/custom-bar-prompt.css");
 :root {
     --prompt-text: "be silly :3";
 }
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/custom-bar-prompt.css");
 ```
 ![image](assets/chatprompt.png)
 
