@@ -1,4 +1,4 @@
-# Awesome CSS ❤️
+# Awesome CSS &nbsp; [![prs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/AushevAhmad/awesome-css/pulls) [![license](https://img.shields.io/github/license/AushevAhmad/awesome-css)](https://github.com/AushevAhmad/awesome-css/main/LICENSE.md) ![stars](https://img.shields.io/github/stars/AushevAhmad/awesome-css)
 A collection of awesome CSS snippets for Discord. See [Installing Modules](#installing-modules) for help getting started.
 
 
