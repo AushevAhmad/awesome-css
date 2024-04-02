@@ -109,6 +109,12 @@ Replace the Discord Home icon with a modern Chats icon.
 @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
 ```
 
+### 🎨 Hotfix for the Nitro Themes by [Dablulite](https://github.com/dablulite)
+Hotfix that styles the previously unstyled areas when using Nitro Themes
+``` css
+@import url("https://dablulite.github.io/css-snippets/NitroThemesFix/import.css");
+```
+
 ---
 
 ## Installing Modules
