@@ -111,7 +111,7 @@ Replace the Discord Home icon with a modern Chats icon.
 
 ---
 
-## Installing Module
+## Installing Modules
 
 1. Open the CSS file for your modded discord client. We reccomend using [Vencord](https://vencord.dev) or [BetterDiscord](https://betterdiscord.app/).
 
