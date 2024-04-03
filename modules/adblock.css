@@ -1,52 +1,30 @@
 /* Adblock CSS */
+
 /* Send a gift button (in profile & chat bar) */
-button[aria-label="Send a gift"] {
-    display: none !important;
-}
-.giftButtonContainer__68103 {
-    display: none !important;
-}
+button[aria-label="Send a gift"],
+.giftButtonContainer__68103,
 /* Nitro tab */
-[data-list-item-id*="___nitro"] {
-    display: none;
-}
+[data-list-item-id*="___nitro"],
 /* Store tab */
-[data-list-item-id*="___shop"] {
-    display: none;
-}
+[data-list-item-id*="___shop"],
 /* Store popup ads */
-[id^=popout]:has([class^=buttonContainerVertical]) {
-    display:none;
-}
+[id^=popout]:has([class^=buttonContainerVertical]),
 /* Hide "Get Nitro" button in emoji info */
-.ctaButton__2bd82.grow__4c8a4.fullWidth_fdb23d.sizeSmall_da7d10.colorGreen__75c93.lookFilled__950dd.button__581d0.shinyButton_d5e126 {
-    display: none;
-}
+.ctaButton__2bd82.grow__4c8a4.fullWidth_fdb23d.sizeSmall_da7d10.colorGreen__75c93.lookFilled__950dd.button__581d0.shinyButton_d5e126,
 /* Disable the super reaction ad pop up */
-.reaction_fef95b[style*="background"] {
-  pointer-events: none;
-}
+.reaction_fef95b[style*="background"],
 /* Hide "Get nitro" ad for too long message */
-.upsell__54a69.root__03160 {
-    display: none;
-}
+.upsell__54a69.root__03160,
 /* Server boost button */
-#guild-header-popout > div > div:nth-child(1), #guild-header-popout > div > div:nth-child(2) {
-    display: none
-}
+#guild-header-popout>div>div:nth-child(1),
+#guild-header-popout>div>div:nth-child(2),
 /* Store ad in profile settings */
-.container__686c4 {
-    display: none;
-}
+.container__686c4,
 /* "Try out nitro" ad in profile settings */
-.tryItOutSection_d658ca.featureBorder__404e3.premiumFeatureBorder__6ac04 {
-    display: none;
-}
+.tryItOutSection_d658ca.featureBorder__404e3.premiumFeatureBorder__6ac04,
 /* App theme */
-#appearance-tab > div > div.children_b15c64 > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div {
-    display: none
-}
+#appearance-tab>div>div.children_b15c64>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div,
 /* Icon Theme */
-#appearance-tab > div > div.children_b15c64 > div:nth-child(2) > div.selectionGroup__36139 {
-    display: none
+#appearance-tab>div>div.children_b15c64>div:nth-child(2)>div.selectionGroup__36139 {
+    display: none !important;
 }

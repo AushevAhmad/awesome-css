@@ -1,21 +1,24 @@
-/* replaces the silly default emoji picker with any emoji of your choice! */
-
-
+/* Replaces the default emoji picker with any emoji of your choice! */
 
 [aria-label="Select emoji"]::before {
     content: "";
-    background-image: var(--image-link); /* paste your emoji link here (remember to use url("") to enclose your link)*/
-        
+    background-image: var(--image-link); /* Replace this with the example below, if you use a url image */
+    /* url("LINK_HERE"); */ /* Replace the link here with any img link */
+
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20%;
     position: absolute;
+    /* Adjust the width or height for the emoji */
     width: 24px;
     height: 24px;
+    /* end */
     display: block;
     visibility: visible;
 }
+
+/* hide original emoji */
 [aria-label="Select emoji"] {
-    visibility: hidden; /* hide original emjoi */
+    visibility: hidden;
 }

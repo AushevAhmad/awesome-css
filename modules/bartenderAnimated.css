@@ -11,10 +11,11 @@
 /* add a menu icon with smooth transition */
 [class="toolbar__62fb5"] {
   width: var(--bartender-width); /* Adjust this to 34-45px based on design requirements */
+  transition: width 0.5s ease-in-out;
   /* If you pick a new marker, instead of "∙∙∙", you'll need to adjust this value */
 }
 
 [class="toolbar__62fb5"]:hover {
-  width: 24%; /* Adjust the width to show the whole section if necessary [default: 21%] */
+  width: var(--animation-size); /* Adjust the width to show the whole section if necessary [default: 21%] */
   /* If you pick a new marker, instead of "∙∙∙", you'll need to adjust this value as well */
 }

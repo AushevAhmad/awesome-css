@@ -1,16 +1,13 @@
-
 /* custom chat bar input text  */
 .placeholder_dec8c7.slateTextArea_b19976.fontSize16Padding_bcbeae {
-    visibility: hidden; /* hide original prompt */
+    visibility: hidden;
 }
+
 .placeholder_dec8c7.slateTextArea_b19976.fontSize16Padding_bcbeae::before {
-    visibility: visible; /* show new prompt */
-    content: var(--prompt-text) /* enter your desired text here (in quotes) */
-    
-    /* here are some to get you started :3 */
-    
-    /* "say something stupid" */
-    /* "start a pointless argument" */
-    
-    ; 
+    visibility: visible;
+    content: var(--prompt-text);
+    /* enter your desired text here (in quotes) */
+    /* You'll need to replace var(--prompt-text) with an example  */
+    /* "THIS IS THE BEST!";  Example */
+    /* Change "THIS IS THE BEST" to whatever you want */
 }

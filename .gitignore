@@ -1,0 +1,2 @@
+# Prevent `.DS_Store` from launching into the repo
+.DS_Store

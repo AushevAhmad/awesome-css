@@ -1,26 +1,26 @@
-/* vencord membercount tweaks */
-
-/* this module has no affect unless the vencord MemberCount plugin is installed */
+/* Vencord MemberCount Tweaks */
+/* This module has no affect unless the vencord MemberCount plugin is installed */
 /* https://vencord.dev/plugins/MemberCount */
 
-.vc-membercount-online-dot {
-    display: none !important;
-}
+.vc-membercount-online-dot,
 .vc-membercount-total-dot {
     display: none !important;
 }
+
 .vc-membercount-total::before {
     content: "/";
     visibility: visible;
     position: absolute;
-    display:contents;
+    display: contents;
 }
+
 .vc-membercount-total::after {
     content: " online";
     visibility: visible;
     position: absolute;
-    display:contents;
+    display: contents;
 }
+
 .membersGroup_cad095.container__43554 {
     padding-top: 20px;
 }

@@ -2,30 +2,15 @@
 
 /* Imports CSS from adblock.css */
 @import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/adblock.css");
-/* Remove Profile effect */
-[class^="profileEffects"]
-{
-  display: none;
-}
-/* Billing settings */
-.themed_b957e8.item__48dda.premiumTab_ad0913 {
-    display: none;
-}
-div.themed_b957e8.item__48dda:nth-of-type(14) {
-    display: none;
-}
-div.themed_b957e8.item__48dda:nth-of-type(15) {
-    display: none;
-}
-div.themed_b957e8.item__48dda:nth-of-type(16) {
-    display: none;
-}
-div.themed_b957e8.item__48dda:nth-of-type(17) {
-    display: none;
-}
-div.header__71a82:nth-of-type(12) {
-  display: none;
-}
+
+/* Remove Profile effect and Billing settings */
+[class^="profileEffects"],
+.themed_b957e8.item__48dda.premiumTab_ad0913,
+div.themed_b957e8.item__48dda:nth-of-type(14),
+div.themed_b957e8.item__48dda:nth-of-type(15),
+div.themed_b957e8.item__48dda:nth-of-type(16),
+div.themed_b957e8.item__48dda:nth-of-type(17),
+div.header__71a82:nth-of-type(12),
 div.separator_d14fb1:nth-of-type(11) {
   display: none;
 }
