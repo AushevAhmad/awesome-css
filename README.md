@@ -29,7 +29,7 @@ Hide Discord's toolbar icons until you need them.
 If you fancy an animated version, which slides in from the left, you can use the following:
 
 ```css
-@import ("https://aushevahmad.github.io/awesome-css/modules/bartenderAnimated.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/bartenderAnimated.css");
 
 :root {
     --bartender-width: 34px; /* Adjust this to 34-45px based on themes [Default: 34px] */
