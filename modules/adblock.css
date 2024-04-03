@@ -13,6 +13,8 @@ button[aria-label="Send a gift"],
 .ctaButton__2bd82.grow__4c8a4.fullWidth_fdb23d.sizeSmall_da7d10.colorGreen__75c93.lookFilled__950dd.button__581d0.shinyButton_d5e126,
 /* Disable the super reaction ad pop up */
 .reaction_fef95b[style*="background"],
+/* Hide "Get nitro" popup when clicking on custom emojj reaction without nitro */
+premiumPromo__9e1ca,
 /* Hide "Get nitro" ad for too long message */
 .upsell__54a69.root__03160,
 /* Server boost button */
