@@ -2,7 +2,7 @@
 
 /* NOTE: this does not work properly on Vesktop */
 [class="toolbar__62fb5"]::before {
-  content: "∙∙∙"; /* Change this if you want to anything [Default: ∙∙∙] */
+  content: "∙∙∙"; /* Change this to anything you like [Default: ∙∙∙] */
   font-size: 110%;
   margin: 0 8px;
   color: var(--text-muted);

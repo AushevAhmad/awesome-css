@@ -2,8 +2,13 @@
 
 [aria-label="Select emoji"]::before {
     content: "";
-    background-image: var(--image-link); /* Replace this with the example below, if you use a url image */
-    /* url("LINK_HERE"); */ /* Replace the link here with any img link */
+    background-image: var(--image-link); /* replace var() with url("link-to-image") */
+    
+    /* for example:
+    
+    background-image: url("https://cdn.discordapp.com/emojis/1226352687914942484.webp");
+    
+    */
 
     background-size: contain;
     background-position: center;

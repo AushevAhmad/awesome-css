@@ -2,7 +2,7 @@
 
 /* NOTE: this does not work properly on Vesktop */
 [class="toolbar__62fb5"]::before {
-  content: "∙∙∙"; /* Change this if you want to anything [Default: ∙∙∙] */
+  content: "∙∙∙"; /* Change this to anything you like [Default: ∙∙∙] */
   font-size: 110%;
   margin: 0 8px;
   color: var(--text-muted);
@@ -11,10 +11,10 @@
 /* add a menu icon with smooth transition */
 [class="toolbar__62fb5"] {
   width: var(--bartender-width); /* Adjust this to 34-45px based on design requirements */
-  /* If you pick a new marker, instead of "∙∙∙", you'll need to adjust this value */
+  /* If you pick a new icon, instead of "∙∙∙", you may need to adjust this value */
 }
 
 [class="toolbar__62fb5"]:hover {
   width: 24%; /* Adjust the width to show the whole section if necessary [default: 21%] */
-  /* If you pick a new marker, instead of "∙∙∙", you'll need to adjust this value as well */
+  /* If you pick a new icon, instead of "∙∙∙", you may need to adjust this value as well */
 }

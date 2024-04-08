@@ -20,7 +20,7 @@ Hide Discord's toolbar icons until you need them.
 @import url("https://aushevahmad.github.io/awesome-css/modules/bartender.css");
 
 :root {
-    --bartender-width: 34px;  /* Adjust this to 34-45px based on themes [Default: 34px] */
+    --bartender-width: 40px;  /* Width for displayed icon. Adjust depending on your needs [Default: 40px] */
 }
 ```
 
@@ -74,6 +74,16 @@ Minor adjustments to the membercount view. *This module has no effect unless the
 ```
 
 ![MemberCount Tweak](assets/membercount.png)
+
+### 💬 Channel Tweaks
+
+A few changes to the channel list, to increase density. 
+
+```css
+@import url("https://aushevahmad.github.io/awesome-css/modules/channeltweaks.css");
+```
+
+![MemberCount Tweak](assets/channeltweaks.png)
 
 ### 🛑 Adblock
 

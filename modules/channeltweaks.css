@@ -1,0 +1,40 @@
+/* changes to the channel list for better usability */
+
+/* shrink all channel icons */
+[class="iconContainer__6a580"], [class="spine__88e6d"] {
+    scale: .8;
+}
+[class="spineBorder__52981"] {
+    display: none; /* this fixes thread icons */
+}
+
+/* squish channel height/spacing */
+[class="link_ddbb36"] {
+    padding-block: 3px;
+}
+
+/* dim all category labels */
+[class="mainContent__2333c"] {
+    opacity: 70%;
+}
+
+/* hide category dropdown arrows, instead dim label when collapsed */
+[class="mainContent__2333c"]>[class="icon__3aa8e"] {
+    display: none;
+}
+[class="mainContent__2333c"][aria-expanded="false"] {
+    opacity: 50% !important;
+}
+
+/* squeeze channel list left */
+.wrapper__612a5 {
+    margin-left: 0 !important;
+}
+.wrapper__07e2f {
+    padding-left: 8px !important;
+}
+
+/* make unread channel's icons brighter (because the unread indicator is now hidden)*/
+.modeUnreadImportant__35358 .icon__67ab4, .modeUnreadImportant__35358:hover .icon__67ab4, .modeSelected__473f1:hover .icon__67ab4 {
+    color: var(--interactive-active);
+}
