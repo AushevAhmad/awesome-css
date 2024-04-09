@@ -2,7 +2,7 @@
 
 Welcome to Awesome CSS Snippets for Discord! This repository is a curated collection of CSS snippets designed to enhance your Discord experience. Whether you want to customize the appearance, improve functionality, or streamline your usage, these snippets offer a variety of solutions.
 
-For an install guide, jump down to [Installing Modules](#installing-modules) for help getting started.
+Jump down to [Installing Modules](#installing-modules) for help getting started.
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/AushevAhmad/awesome-css/pulls)
 [![License](https://img.shields.io/github/license/AushevAhmad/awesome-css)](https://github.com/AushevAhmad/awesome-css/blob/main/LICENSE.md)
