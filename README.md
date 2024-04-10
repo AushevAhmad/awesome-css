@@ -218,7 +218,7 @@ If you prefer not to receive updates, see [Customizing Modules](#customizing-mod
 
 ## Customizing Modules
 
-If you want to customize your modules:
+If you would like to to customize your modules:
 
 1. Open the link found in the module's `@import` URL.
 
