@@ -1,6 +1,5 @@
 /* changes to the channel list for better usability */
 
-
 /* squish channel height/spacing */
 [class="link_ddbb36"] {
     padding-block: 3px;
@@ -8,13 +7,14 @@
 
 /* shrink all channel icons */
 [class="iconContainer__6a580"]>svg[role="img"] {
-    scale: .8;
+    scale: 0.8;
 }
 
 /* squeeze channel list left */
 .wrapper__612a5:not(.typeThread__5fb37) {
     margin-left: 0 !important;
 }
+
 .wrapper__07e2f {
     padding-left: 8px !important;
 }
@@ -24,17 +24,20 @@
     bottom: 20px !important;
     left: 16px;
 }
+
 .containerDefault_ae2ea4>svg {
     top: 5px;
     left: 16px;
 }
+
 .wrapper__612a5.typeThread__5fb37 {
     margin-left: 28px;
 }
 
-
 /* make unread channel's icons brighter (because the unread indicator is now hidden)*/
-.modeUnreadImportant__35358 .icon__67ab4, .modeUnreadImportant__35358:hover .icon__67ab4, .modeSelected__473f1:hover .icon__67ab4 {
+.modeUnreadImportant__35358 .icon__67ab4,
+.modeUnreadImportant__35358:hover .icon__67ab4,
+.modeSelected__473f1:hover .icon__67ab4 {
     color: var(--interactive-active);
 }
 
@@ -47,8 +50,7 @@
 [class="mainContent__2333c"]>[class="icon__3aa8e"] {
     display: none;
 }
+
 [class="mainContent__2333c"][aria-expanded="false"] {
     opacity: 50% !important;
 }
-
-

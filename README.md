@@ -77,7 +77,7 @@ Minor adjustments to the membercount view. *This module has no effect unless the
 
 ### 💬 Channel Tweaks
 
-A few changes to the channel list, to increase density. 
+A few changes to the channel list, to increase density.
 
 ```css
 @import url("https://aushevahmad.github.io/awesome-css/modules/channeltweaks.css");
