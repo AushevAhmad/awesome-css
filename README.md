@@ -18,15 +18,14 @@ Hide Discord's toolbar icons until you need them.
 
 ```css
 @import url("https://aushevahmad.github.io/awesome-css/modules/bartender.css");
-
 :root {
-    --bartender-width: 40px;  /* Width for displayed icon. Adjust depending on your needs [Default: 40px] */
+    --bartender-width: 4ch;  /* Width for displayed icon. Adjust depending on your needs [Default: 4ch] */
 }
 ```
 
 ![Bartender](assets/bartender.gif)
 
-If you fancy an animated version, which slides in from the left, you can use the following:
+If you fancy an animated version, which slides in from the left, you can use this version:
 
 ```css
 @import url("https://aushevahmad.github.io/awesome-css/modules/bartenderAnimated.css");
@@ -36,6 +35,7 @@ If you fancy an animated version, which slides in from the left, you can use the
     --animation-size: 21%; /* Adjust the width to show the whole section if necessary [default: 21%] */
 }
 ```
+*note that the toolbar's width will not be consistent with all window sizes.*
 
 ### 🙂 Custom Emoji
 
