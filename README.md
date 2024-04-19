@@ -2,7 +2,7 @@
 
 Welcome to Awesome CSS Snippets for Discord! This repository is a curated collection of CSS snippets designed to enhance your Discord experience. Whether you want to customize the appearance, improve functionality, or streamline your usage, these snippets offer a variety of solutions.
 
-For an install guide, jump down to [Installing Modules](#installing-modules) for help getting started.
+Jump down to [Installing Modules](#installing-modules) for help getting started.
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/AushevAhmad/awesome-css/pulls)
 [![License](https://img.shields.io/github/license/AushevAhmad/awesome-css)](https://github.com/AushevAhmad/awesome-css/blob/main/LICENSE.md)
@@ -77,7 +77,7 @@ Minor adjustments to the membercount view. *This module has no effect unless the
 
 ### 💬 Channel Tweaks
 
-A few changes to the channel list, to increase density. 
+A few changes to the channel list, to increase density.
 
 ```css
 @import url("https://aushevahmad.github.io/awesome-css/modules/channeltweaks.css");
@@ -218,7 +218,7 @@ If you prefer not to receive updates, see [Customizing Modules](#customizing-mod
 
 ## Customizing Modules
 
-If you want to customize your modules:
+If you would like to to customize your modules:
 
 1. Open the link found in the module's `@import` URL.
 

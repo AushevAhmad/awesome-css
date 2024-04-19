@@ -2,7 +2,7 @@
 
 /* Hide various elements */
 .panelSubtextContainer_fd5930, /* Hide status/username viewer near mic button */
-.newMemberBadge__17bc0, /* No "New member" badge */
+.newMemberBadge_e6a326, /* No "New member" badge */
 div[class*="listItem"]:has(div[aria-label="Explore Discoverable Servers"]), /* Hide 'Explore Discoverable Servers' in server page */
 .text__35f5c, /* Remove loading quote */
 .threadSuggestionBar__717a3, /* Hide thread suggestion in reply */
