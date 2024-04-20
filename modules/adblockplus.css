@@ -1,7 +1,7 @@
 /* Adblock+ */
 
 /* Imports CSS from adblock.css */
-@import url("https://raw.githubusercontent.com/AushevAhmad/awesome-css/main/modules/adblock.css");
+@import url("https://cdn.jsdelivr.net/gh/AushevAhmad/awesome-css@main/modules/adblock.css");
 
 /* Remove Profile effect and Billing settings */
 [class^="profileEffects"],
