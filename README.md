@@ -83,7 +83,17 @@ A few changes to the channel list, to increase density.
 @import url("https://aushevahmad.github.io/awesome-css/modules/channeltweaks.css");
 ```
 
-![MemberCount Tweak](assets/channeltweaks.png)
+![Channel Tweak](assets/channeltweaks.png)
+
+### 🔍 Fancy Search
+
+Keep the search bar out of the way when it's not in use
+
+```css
+@import url("https://aushevahmad.github.io/awesome-css/modules/fancySearch.css");
+```
+
+![Fancy Search](assets/fancysearch.png)
 
 ### 🛑 Adblock
 
