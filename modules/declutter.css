@@ -12,7 +12,7 @@ button[aria-label="Open GIF picker"], /* Hide GIF picker button */
 button[aria-label="Open sticker picker"], /* Hide sticker picker button */
 [class^=bar__]:has([class^=voiceChannelsIcon__]), /* Hide "x in vc" scroll indicator */
 [aria-label="Help"], /* Removes "Support" question mark button */
-[aria-label="Summaries"], /* Remove Summaries button in topbar */
+[aria-label="Show Summaries"], /* Remove Summaries button in topbar */
 [aria-label="Start Video Call"], /* remove video call button */
 [aria-label="Show User Profile"], /* Remove Show User Profile button */
 [aria-label="Add Friends to DM"], /* Remove Add Friends to DM button */
