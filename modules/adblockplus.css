@@ -5,12 +5,12 @@
 
 /* Remove Profile effect and Billing settings */
 [class^="profileEffects"],
-.themed_b957e8.item__48dda.premiumTab_ad0913,
-div.themed_b957e8.item__48dda:nth-of-type(14),
-div.themed_b957e8.item__48dda:nth-of-type(15),
-div.themed_b957e8.item__48dda:nth-of-type(16),
-div.themed_b957e8.item__48dda:nth-of-type(17),
-div.header__71a82:nth-of-type(12),
-div.separator_d14fb1:nth-of-type(11) {
+.themed_a0.item_a0.premiumTab_c10c74,
+div.themed_a0.item_a0:nth-of-type(14),
+div.themed_a0.item_a0:nth-of-type(15),
+div.themed_a0.item_a0:nth-of-type(16),
+div.themed_a0.item_a0:nth-of-type(17),
+div.header_a0:nth-of-type(12),
+div.separator_a0:nth-of-type(11) {
   display: none;
 }
