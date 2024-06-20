@@ -1,12 +1,12 @@
 /* custom chat bar input text  */
 
 /* hide existing text */
-.placeholder_dec8c7.slateTextArea_b19976.fontSize16Padding_bcbeae {
+.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_d0696b {
     visibility: hidden;
 }
 
 /* add custom text */
-.placeholder_dec8c7.slateTextArea_b19976.fontSize16Padding_bcbeae::before {
+.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_d0696b::before {
     visibility: visible;
     content: var(--prompt-text); /* replace var() with your desired text (in quotes) */
     
