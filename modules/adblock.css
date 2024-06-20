@@ -10,23 +10,23 @@ button[aria-label="Send a gift"],
 /* Store popup ads */
 [id^=popout]:has([class^=buttonContainerVertical]),
 /* Hide "Get Nitro" button in emoji info */
-.ctaButton__2bd82.grow__4c8a4.fullWidth_fdb23d.sizeSmall_da7d10.colorGreen__75c93.lookFilled__950dd.button__581d0.shinyButton_d5e126,
+.ctaButton_e58351.grow_dd4f85.fullWidth_dd4f85.sizeSmall_dd4f85.colorGreen_dd4f85.lookFilled_dd4f85.button_dd4f85.shinyButton_d5e126,
 /* Disable the super reaction ad pop up */
-.reaction_fef95b[style*="background"],
+.reaction_ec6b19[style*="background"],
 /* Hide "Get nitro" popup when clicking on custom emojj reaction without nitro */
-premiumPromo__9e1ca,
+premiumPromo_ca9b56,
 /* Hide "Get nitro" ad for too long message */
-.upsell__54a69.root__03160,
+.upsell_b82429.root_d6170c,
 /* Server boost button */
 #guild-header-popout>div>div:nth-child(1),
 #guild-header-popout>div>div:nth-child(2),
 /* Store ad in profile settings */
-.container__686c4,
+.container_da1432,
 /* "Try out nitro" ad in profile settings */
-.tryItOutSection_d658ca.featureBorder__404e3.premiumFeatureBorder__6ac04,
+.tryItOutSection_eb2d2c.featureBorder_c6d722.premiumFeatureBorder_c6d722,
 /* App theme */
-#appearance-tab>div>div.children_b15c64>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div,
+#appearance-tab>div>div.children_a6ae9b>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div,
 /* Icon Theme */
-#appearance-tab>div>div.children_b15c64>div:nth-child(2)>div.selectionGroup__36139 {
+#appearance-tab>div>div.children_a6ae9b>div:nth-child(2)>div.selectionGroup_bde965 {
     display: none !important;
 }
