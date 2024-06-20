@@ -1,12 +1,12 @@
 /* search bar tweaks: increased height, defaults to icon size */
-.searchBar__5a20a {
+.searchBar_a46bef {
     height: 30px !important;
     width: 30px;
     padding: 3px 5px;
     border-radius: 8px;
     cursor: pointer;
 }
-.icon__53a5c.iconLayout__9d9a4.small_e6f811 {
+.icon_a46bef.iconLayout_effbe2.small_effbe2 {
     cursor: pointer;
     scale: 1.2;
 }
