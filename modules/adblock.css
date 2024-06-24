@@ -20,13 +20,11 @@ premiumPromo_ca9b56,
 /* Server boost button */
 #guild-header-popout>div>div:nth-child(1),
 #guild-header-popout>div>div:nth-child(2),
+/* Remove boost goal */
+.containerWithMargin_c75f85.container_c75f85,
 /* Store ad in profile settings */
 .container_da1432,
 /* "Try out nitro" ad in profile settings */
-.tryItOutSection_eb2d2c.featureBorder_c6d722.premiumFeatureBorder_c6d722,
-/* App theme */
-#appearance-tab>div>div.children_a6ae9b>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div,
-/* Icon Theme */
-#appearance-tab>div>div.children_a6ae9b>div:nth-child(2)>div.selectionGroup_bde965 {
+.tryItOutSection_eb2d2c.featureBorder_c6d722.premiumFeatureBorder_c6d722 {
     display: none !important;
 }
