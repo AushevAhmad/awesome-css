@@ -205,6 +205,13 @@ Hotfix that styles the previously unstyled areas when using Nitro Themes.
 ```css
 @import url("https://dablulite.github.io/css-snippets/NitroThemesFix/import.css");
 ```
+### 📖 Forum Improvements by [Saltssaumure](https://github.com/Saltssaumure)
+
+Provides a series of fixes and QoL features to bring forums closer to full-assed.
+
+```css
+@import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
+```
 
 ## Installing Modules
 
