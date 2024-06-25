@@ -12,12 +12,12 @@ button[aria-label="Open GIF picker"], /* Hide GIF picker button */
 button[aria-label="Open sticker picker"], /* Hide sticker picker button */
 [class^=bar__]:has([class^=voiceChannelsIcon__]), /* Hide "x in vc" scroll indicator */
 [aria-label="Help"], /* Removes "Support" question mark button */
-[aria-label="Show Summaries"], /* Remove Summaries button in topbar */
 [aria-label="Start Video Call"], /* remove video call button */
 [aria-label="Show User Profile"], /* Remove Show User Profile button */
 [aria-label="Add Friends to DM"], /* Remove Add Friends to DM button */
 [aria-label="Threads"], /* Remove Threads button in topbar */
 [aria-label="Notification Settings"], /* Remove Notification Settings button in topbar */
-.divider_d2b491.divider_ae36e5 /* Remove dividing line in profile */ {
+.divider_d2b491.divider_ae36e5, /* Remove dividing line in profile */
+[class^="iconGroup"]:has([class^="hangStatusIcon"]) /* Hide hang statuses */ {
     display: none !important;
 }
