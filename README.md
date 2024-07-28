@@ -213,6 +213,30 @@ Provides a series of fixes and QoL features to bring forums closer to full-assed
 @import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
 ```
 
+### ⚙️ Settings icons by [mwittrien](https://github.com/mwittrien)
+
+Adds icons to settings. 
+
+```css
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+```
+
+### 🧵 Hidden Threads by [LuLu](https://lusaffi.carrd.co/)
+
+Make Threads hidden by default and slide down on hover.
+
+```css
+@import url("https://aushevahmad.github.io/awesome-css/modules/hiddenthreads.css");
+```
+
+### 🤖 Compress bot messages by [Andrew6rant](https://github.com/Andrew6rant/)
+
+Compress Github's bot messages 
+
+```css
+@import url("https://aushevahmad.github.io/awesome-css/modules/compressbotmsgs.css");
+```
+
 ## Installing Modules
 
 To install these modules:
@@ -260,3 +284,6 @@ Special thanks to the following third-party developers for their contributions:
 - [Skyli](https://github.com/s-k-y-l-i)
 - [Saltssaumure](https://github.com/Saltssaumure)
 - [Dablulite](https://github.com/dablulite)
+- [mwittrien](https://github.com/mwittrien)
+- [LuLu](https://lusaffi.carrd.co/)
+- [Andrew6rant](https://github.com/Andrew6rant/)

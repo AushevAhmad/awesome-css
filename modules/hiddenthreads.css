@@ -1,0 +1,9 @@
+/* Make Threads hidden by default and slide down on hover */
+#channels [class^=container_]:not([class*=containerWithMargin])
+ { max-height: 0;
+   overflow: hidden; 
+   transition: max-height 2s ease; }
+   
+#channels [class^=containerDefault_]:hover + [class^=container_],
+#channels [class^=container_]:hover
+ { max-height: 100%; }
