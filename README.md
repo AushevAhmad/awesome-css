@@ -231,7 +231,7 @@ Make Threads hidden by default and slide down on hover.
 
 ### 🤖 Compress bot messages by [Andrew6rant](https://github.com/Andrew6rant/)
 
-Compress Github's bot messages 
+Compress Github's bot messages.
 
 ```css
 @import url("https://aushevahmad.github.io/awesome-css/modules/compressbotmsgs.css");
