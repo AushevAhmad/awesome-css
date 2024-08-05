@@ -126,6 +126,8 @@ Hide (or limit, where hiding isn't possible) annoying Nitro upsells.
 }
 ```
 
+![Adblock](assets/adblock.png)
+
 ### 💡 Connection Glow on Hover by [Vortex-Chaos](https://github.com/Vortex-Chaos)
 
 Make the connection buttons glow when hovering in Discord profiles.
@@ -234,13 +236,19 @@ Compress Github's bot messages.
 
 To install these modules:
 
-1. Open the CSS file for your modded Discord client. We recommend using [Vencord](https://vencord.dev) or [BetterDiscord](https://betterdiscord.app/).
+1. Open the CSS file for your modded Discord client. 
+
+> [!TIP]
+> We recommend using [Vencord](https://vencord.dev) however you can also use [BetterDiscord](https://betterdiscord.app)
 
    - **Vencord:** In the Vencord settings tab, ensure *Enable Custom CSS* is turned on, then select 'Open QuickCSS File'.
 
    - **BetterDiscord:** Open the CustomCSS tab in settings.
 
 2. Paste the CSS modules you want into the CSS file.
+
+> [!IMPORTANT]  
+> Make sure to put all `@import` URL links **ON TOP** of the CSS configuration.
 
 3. That's it! If you experience issues, try reloading your client.
 
@@ -258,7 +266,10 @@ If you would like to to customize your modules:
 
 2. Copy all of the CSS and paste it into your custom CSS file.
 
-3. You can now customize any of the module's contents. *Doing this means the modules will not receive updates from this repository.*
+3. You can now customize any of the module's contents. 
+
+> [!WARNING]
+> Doing this means the modules will not receive updates from this repository.
 
 ## Issues / Ideas
 
