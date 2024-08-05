@@ -95,24 +95,6 @@ Keep the search bar out of the way when it's not in use
 
 ![Fancy Search](assets/fancysearch.png)
 
-### 🛑 Adblock
-
-Block Discord Nitro/Shop/Server Boost ads.
-
-```css
-@import url("https://aushevahmad.github.io/awesome-css/modules/adblock.css");
-```
-
-![Adblock](assets/adblock.png)
-
-### 🛡️ Adblock+
-
-Better version of Adblock module that removes billing settings and profile effects.
-
-```css
-@import url("https://aushevahmad.github.io/awesome-css/modules/adblockplus.css");
-```
-
 ### 🧹 Declutter
 
 Remove useless buttons and give Discord a cleaner look.
@@ -121,17 +103,28 @@ Remove useless buttons and give Discord a cleaner look.
 @import url("https://aushevahmad.github.io/awesome-css/modules/declutter.css");
 ```
 
-### ✨ Declutter+
-
-Better version of Declutter module that also removes ads by default. (Recommended)
-
-```css
-@import url("https://aushevahmad.github.io/awesome-css/modules/declutterplus.css");
-```
-
 ## Modules from Other Developers
 
 In addition to our modules, here are some contributions from other developers:
+
+### 🛑 HideNitroUpsells by [tom](https://github.com/tom22k)
+
+Hide (or limit, where hiding isn't possible) annoying Nitro upsells.
+
+```css
+@import url("https://raw.githubusercontent.com/tom22k/discord-css/main/Themes/HideNitroUpsellV2.css");
+
+:root {
+    /* do you want to see your quests/billing/nitro settings? */
+    /* yes, I want to see it -> --billing: block !important; */
+    /* no, hide it -> --billing: none; */
+    --billing: none;
+    /* do you want to see server boosting/server shop upsell? */
+    /* yes, I want to see it -> --boosting: block !important; */
+    /* no, hide it -> --boosting: none; */
+    --boosting: none;
+}
+```
 
 ### 💡 Connection Glow on Hover by [Vortex-Chaos](https://github.com/Vortex-Chaos)
 
