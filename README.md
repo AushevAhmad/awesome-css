@@ -103,6 +103,8 @@ Remove useless buttons and give Discord a cleaner look.
 @import url("https://aushevahmad.github.io/awesome-css/modules/declutter.css");
 ```
 
+![Declutter](assets/declutter.png)
+
 ## Modules from Other Developers
 
 In addition to our modules, here are some contributions from other developers:
@@ -185,6 +187,8 @@ A refresh to the now archived "account details columns" snippet.
 @import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
 ```
 
+![Accountgrid](assets/accountgrid.png)
+
 ### 💬 Tabs V2 Home Icon by [Dablulite](https://github.com/dablulite)
 
 Replace the Discord Home icon with a modern Chats icon.
@@ -193,6 +197,8 @@ Replace the Discord Home icon with a modern Chats icon.
 @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
 ```
 
+![Tabsv2icon](assets/tabsv2icon.png)
+
 ### 🎨 Hotfix for the Nitro Themes by [Dablulite](https://github.com/dablulite)
 
 Hotfix that styles the previously unstyled areas when using Nitro Themes.
@@ -200,6 +206,9 @@ Hotfix that styles the previously unstyled areas when using Nitro Themes.
 ```css
 @import url("https://dablulite.github.io/css-snippets/NitroThemesFix/import.css");
 ```
+
+![ThemeHotfix](assets/themehotfix.png)
+
 ### 📖 Forum Improvements by [Saltssaumure](https://github.com/Saltssaumure)
 
 Provides a series of fixes and QoL features to bring forums closer to full-assed.
@@ -224,6 +233,8 @@ Make Threads hidden by default and slide down on hover.
 @import url("https://aushevahmad.github.io/awesome-css/modules/hiddenthreads.css");
 ```
 
+![HiddenThreads](assets/threads.gif)
+
 ### 🤖 Compress bot messages by [Andrew6rant](https://github.com/Andrew6rant/)
 
 Compress Github's bot messages.
@@ -231,6 +242,8 @@ Compress Github's bot messages.
 ```css
 @import url("https://aushevahmad.github.io/awesome-css/modules/compressbotmsgs.css");
 ```
+
+![BotMessages](assets/botmsgs.png)
 
 ## Installing Modules
 
