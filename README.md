@@ -95,24 +95,6 @@ Keep the search bar out of the way when it's not in use
 
 ![Fancy Search](assets/fancysearch.png)
 
-### 🛑 Adblock
-
-Block Discord Nitro/Shop/Server Boost ads.
-
-```css
-@import url("https://aushevahmad.github.io/awesome-css/modules/adblock.css");
-```
-
-![Adblock](assets/adblock.png)
-
-### 🛡️ Adblock+
-
-Better version of Adblock module that removes billing settings and profile effects.
-
-```css
-@import url("https://aushevahmad.github.io/awesome-css/modules/adblockplus.css");
-```
-
 ### 🧹 Declutter
 
 Remove useless buttons and give Discord a cleaner look.
@@ -121,17 +103,32 @@ Remove useless buttons and give Discord a cleaner look.
 @import url("https://aushevahmad.github.io/awesome-css/modules/declutter.css");
 ```
 
-### ✨ Declutter+
-
-Better version of Declutter module that also removes ads by default. (Recommended)
-
-```css
-@import url("https://aushevahmad.github.io/awesome-css/modules/declutterplus.css");
-```
+![Declutter](assets/declutter.png)
 
 ## Modules from Other Developers
 
 In addition to our modules, here are some contributions from other developers:
+
+### 🛑 HideNitroUpsells by [tom](https://github.com/tom22k)
+
+Hide (or limit, where hiding isn't possible) annoying Nitro upsells.
+
+```css
+@import url("https://raw.githubusercontent.com/tom22k/discord-css/main/Themes/HideNitroUpsellV2.css");
+
+:root {
+    /* do you want to see your quests/billing/nitro settings? */
+    /* yes, I want to see it -> --billing: block !important; */
+    /* no, hide it -> --billing: none; */
+    --billing: none;
+    /* do you want to see server boosting/server shop upsell? */
+    /* yes, I want to see it -> --boosting: block !important; */
+    /* no, hide it -> --boosting: none; */
+    --boosting: none;
+}
+```
+
+![Adblock](assets/adblock.png)
 
 ### 💡 Connection Glow on Hover by [Vortex-Chaos](https://github.com/Vortex-Chaos)
 
@@ -190,6 +187,8 @@ A refresh to the now archived "account details columns" snippet.
 @import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
 ```
 
+![Accountgrid](assets/accountgrid.png)
+
 ### 💬 Tabs V2 Home Icon by [Dablulite](https://github.com/dablulite)
 
 Replace the Discord Home icon with a modern Chats icon.
@@ -198,6 +197,8 @@ Replace the Discord Home icon with a modern Chats icon.
 @import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
 ```
 
+![Tabsv2icon](assets/tabsv2icon.png)
+
 ### 🎨 Hotfix for the Nitro Themes by [Dablulite](https://github.com/dablulite)
 
 Hotfix that styles the previously unstyled areas when using Nitro Themes.
@@ -205,6 +206,9 @@ Hotfix that styles the previously unstyled areas when using Nitro Themes.
 ```css
 @import url("https://dablulite.github.io/css-snippets/NitroThemesFix/import.css");
 ```
+
+![ThemeHotfix](assets/themehotfix.png)
+
 ### 📖 Forum Improvements by [Saltssaumure](https://github.com/Saltssaumure)
 
 Provides a series of fixes and QoL features to bring forums closer to full-assed.
@@ -229,6 +233,8 @@ Make Threads hidden by default and slide down on hover.
 @import url("https://aushevahmad.github.io/awesome-css/modules/hiddenthreads.css");
 ```
 
+![HiddenThreads](assets/threads.gif)
+
 ### 🤖 Compress bot messages by [Andrew6rant](https://github.com/Andrew6rant/)
 
 Compress Github's bot messages.
@@ -237,17 +243,25 @@ Compress Github's bot messages.
 @import url("https://aushevahmad.github.io/awesome-css/modules/compressbotmsgs.css");
 ```
 
+![BotMessages](assets/botmsgs.png)
+
 ## Installing Modules
 
 To install these modules:
 
-1. Open the CSS file for your modded Discord client. We recommend using [Vencord](https://vencord.dev) or [BetterDiscord](https://betterdiscord.app/).
+1. Open the CSS file for your modded Discord client. 
+
+> [!TIP]
+> We recommend using [Vencord](https://vencord.dev) however you can also use [BetterDiscord](https://betterdiscord.app)
 
    - **Vencord:** In the Vencord settings tab, ensure *Enable Custom CSS* is turned on, then select 'Open QuickCSS File'.
 
    - **BetterDiscord:** Open the CustomCSS tab in settings.
 
 2. Paste the CSS modules you want into the CSS file.
+
+> [!IMPORTANT]  
+> Make sure to put all `@import` URL links **ON TOP** of the CSS configuration.
 
 3. That's it! If you experience issues, try reloading your client.
 
@@ -265,7 +279,10 @@ If you would like to to customize your modules:
 
 2. Copy all of the CSS and paste it into your custom CSS file.
 
-3. You can now customize any of the module's contents. *Doing this means the modules will not receive updates from this repository.*
+3. You can now customize any of the module's contents. 
+
+> [!WARNING]
+> Doing this means the modules will not receive updates from this repository.
 
 ## Issues / Ideas
 
