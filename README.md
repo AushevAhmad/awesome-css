@@ -169,6 +169,8 @@ Display a 'show alt` button for any image that has alt text.
 @import url("https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css");
 ```
 
+![AltTextImprovements](assets/alttext.png)
+
 ### 🔎 QuickSwitch V2 by [Dablulite](https://github.com/dablulite)
 
 A redesign to Discord's quickswitcher, making it look more like spotlight and similar search bars.
@@ -216,6 +218,8 @@ Provides a series of fixes and QoL features to bring forums closer to full-assed
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
 ```
+
+![ForumImprovements](assets/forum.png)
 
 ### ⚙️ Settings icons by [mwittrien](https://github.com/mwittrien)
 
