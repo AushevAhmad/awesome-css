@@ -19,14 +19,14 @@
 [class^="messageListItem_"]:has([class^="botText_"]):has([class^="grid_"] > :last-child:nth-child(2)) [class*="groupStart_"] {
   margin-top: -12px;
 }
-.container__62863:has([class^="grid_"] > :last-child:nth-child(2)) {
+.container_b7e1cb:has([class^="grid_"] > :last-child:nth-child(2)) {
   padding-top: 0rem;
   padding-bottom: 0rem;
   top: 12px;
 }
 
 /* I do some weird offseting, it just looks better to not have a misaligned hover overlay */
-.message_ccca67:has([class^="grid_"]):hover {
+.message__5126c:has([class^="grid_"]):hover {
   background-color: #00000000 !important;
   background: #00000000 !important; /* Why do you do this, Discord Nitro themes.. */
 }

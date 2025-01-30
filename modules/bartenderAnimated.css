@@ -3,7 +3,7 @@
 /* NOTE: this module does not work properly on Vesktop */
 
 /* add a menu icon to be visble at all times */
-[class="toolbar_e44302"]::before {
+[class="toolbar__9293f"]::before {
   content: "∙∙∙"; /* Change this to anything you like [Default: ∙∙∙] */
   font-size: 110%;
   margin: 0 8px;
@@ -11,14 +11,14 @@
 }
 
 /* decrease width to hide everything but menu icon */
-[class="toolbar_e44302"] {
+[class="toolbar__9293f"] {
   width: var(--bartender-width); /* Adjust this to 34-45px based on design requirements */
   transition: width 0.5s ease-in-out;
   /* If you pick a new marker, instead of "∙∙∙", you'll need to adjust this value */
 }
 
-[class="toolbar_e44302"]:hover, /* expand toobar on hover */
-[class="toolbar_e44302"]:has(.open_a46bef, .selected_e44302:not([aria-label="Hide Member List"])) /* keep the toolbar open if an item (e.g., search) is active */
+[class="toolbar__9293f"]:hover, /* expand toobar on hover */
+[class="toolbar__9293f"]:has(.open__97492, .selected__9293f:not([aria-label="Hide Member List"])) /* keep the toolbar open if an item (e.g., search) is active */
 {
   width: var(--animation-size); /* Adjust the width to show the whole section if necessary [default: 21%] */
   /* If you pick a new marker, instead of "∙∙∙", you may need to adjust this value as well */

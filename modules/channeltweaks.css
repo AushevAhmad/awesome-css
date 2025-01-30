@@ -1,56 +1,56 @@
 /* changes to the channel list for better usability */
 
 /* squish channel height/spacing */
-[class="link_d8bfb3"] {
+[class="link__2ea32"] {
     padding-block: 3px;
 }
 
 /* shrink all channel icons */
-[class="iconContainer_d8bfb3"]>svg[role="img"] {
+[class="iconContainer__2ea32"]>svg[role="img"] {
     scale: 0.8;
 }
 
 /* squeeze channel list left */
-.wrapper_d8bfb3:not(.typeThread_d8bfb3) {
+.wrapper__2ea32:not(.typeThread__2ea32) {
     margin-left: 0 !important;
 }
 
-.wrapper_a08117 {
+.wrapper__29444 {
     padding-left: 8px !important;
 }
 
 /* fix threads "spine" */
-.spineBorder_e1e976 {
+.spineBorder__5b40b {
     bottom: 20px !important;
     left: 16px;
 }
 
-.containerDefault_f6f816>svg {
+.containerDefault_c69b6d>svg {
     top: 5px;
     left: 16px;
 }
 
-.wrapper_d8bfb3.typeThread_d8bfb3 {
+.wrapper__2ea32.typeThread__2ea32 {
     margin-left: 28px;
 }
 
 /* make unread channel's icons brighter (because the unread indicator is now hidden)*/
-.modeUnreadImportant_d8bfb3 .icon_d8bfb3,
-.modeUnreadImportant_d8bfb3:hover .icon_d8bfb3,
-.modeSelected_d8bfb3:hover .icon_d8bfb3 {
+.modeUnreadImportant__2ea32 .icon__2ea32,
+.modeUnreadImportant__2ea32:hover .icon__2ea32,
+.modeSelected__2ea32:hover .icon__2ea32 {
     color: var(--interactive-active);
 }
 
 /* dim all category labels */
-[class="mainContent_a08117"] {
+[class="mainContent__29444"] {
     opacity: 70%;
 }
 
 /* hide category dropdown arrows, instead dim label when collapsed */
-[class="mainContent_a08117"]>[class="icon_a08117"] {
+[class="mainContent__29444"]>[class="icon__29444"] {
     display: none;
 }
 
-[class="mainContent_a08117"][aria-expanded="false"] {
+[class="mainContent__29444"][aria-expanded="false"] {
     opacity: 50% !important;
 }

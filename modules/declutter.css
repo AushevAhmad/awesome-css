@@ -1,13 +1,13 @@
-/* Declutter Discord's UI (Recommended to be used with Adblock or Adblock+ module) */
+/* Declutter Discord's UI */
 
 /* Hide various elements */
-.panelSubtextContainer_b2ca13, /* Hide status/username viewer near mic button */
-.newMemberBadge_ed263a, /* No "New member" badge */
+.panelSubtextContainer__37e49, /* Hide status/username viewer near mic button */
+.newMemberBadge_f80704, /* No "New member" badge */
 div[class*="listItem"]:has(div[aria-label="Explore Discoverable Servers"]), /* Hide 'Explore Discoverable Servers' in server page */
-.text_e40c16, /* Remove loading quote */
-.threadSuggestionBar_b11c5e, /* Hide thread suggestion in reply */
-div.themed_a0.item_a0.item_c2739c:nth-of-type(4), /* No blocked section in friends list */
-.nowPlayingColumn_c2739c, /* No "Actie now" tab */
+.text_a2f514, /* Remove loading quote */
+.threadSuggestionBar__841c8, /* Hide thread suggestion in reply */
+div.themed_b3f026.item_b3f026.item__133bf:nth-of-type(4), /* No blocked section in friends list */
+.nowPlayingColumn__133bf, /* No "Active now" tab */
 button[aria-label="Open GIF picker"], /* Hide GIF picker button */
 button[aria-label="Open sticker picker"], /* Hide sticker picker button */
 [class^=bar__]:has([class^=voiceChannelsIcon__]), /* Hide "x in vc" scroll indicator */
